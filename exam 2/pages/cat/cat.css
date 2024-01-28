@@ -1,0 +1,157 @@
+    body {
+        background-color: black;
+    }
+    
+    
+    /* start home  */
+    #home .card {
+        position: relative;
+        overflow: hidden; 
+        cursor: pointer;  
+        border: none;
+    }
+    #home .card .details {
+    position: absolute;
+    bottom: -101%;
+    left: 0;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.836);
+    width: 100%;
+    height: 100%;
+    transition: all  1.5s  ;
+    }
+
+
+    #home .card:hover .details  {
+        transform: translateY(-200px);
+    }
+    #home .card:hover .layer {
+        transform: translateY(-319px);
+    }
+
+    #home .card .details  p {
+        height: 100px;
+        overflow: hidden;
+        
+    }
+
+    #home .card .details span {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+
+
+    /* end  home  */
+
+
+
+
+
+    .asid-bar {
+        display: flex;
+        height: 100vh;
+        width: 15%;
+        position: absolute;
+        position: fixed;
+        z-index: 9999999999;
+    }
+    
+    .asid-bar .box {
+        justify-content: space-between;
+        background-color: black;
+        color: white;
+        display: none;
+        position: relative;
+        width: 100%;
+    }
+
+    .ul-container {
+      display: none;
+    }
+    .asid-bar .box .a-icons {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+      
+
+    .box-c {
+        justify-content: space-between;
+        padding-right: 35px;
+        white-space: nowrap;
+    }
+    
+    
+    .asid-bar .box ul li {
+        list-style: none;
+        font-size: 22px;
+        margin-block: 20px;
+    }
+    .asid-bar .box ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    .nav-list {
+        background-color: white;
+        justify-content: space-between;
+        padding-block: 50px;
+        
+    }
+    
+    .nav-list .nav-logo {
+        height: 50px;
+        width: 50px;
+        }
+    
+    
+        .nav-list  .nav-list-icons i {
+            display: block;
+            margin-block: 5px;
+        }
+    
+    
+    .nav-list-b {
+        cursor: pointer;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #home .product  .info ul li   {
+        list-style: none;
+        display: inline;
+        background-color: aqua;
+        padding: 5px 10px ;
+        color: white;
+        border: none;
+        border-radius: 10px;
+    }
+
+
+    #home .product  .info ul {
+        margin-block: 30px;
+        display: block;
+    }
+    
+
+    #home .product {
+        color: white;
+    }
+    
+    #home .product  .info .tags li  {
+        background-color: rgb(255, 143, 7);
+      }
